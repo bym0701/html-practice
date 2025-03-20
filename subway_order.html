@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subway_order</title>
+</head>
+<body>
+    <div style="margin: 10px;">
+        <h1>서브웨이 주문서</h1>
+    </div>
+    <div style="margin: 10px;">
+        <form>
+            <label for="닉네임">닉네임: </label>
+            <input type="text"><br><br>
+
+            <label for="전화번호">전화번호: </label>
+            <input type="text" placeholder="010-1234-5678"><br><br>
+
+            <label for="메뉴">메뉴를 골라주세요: </label>
+            <select name="메뉴" id="메뉴">
+                <option value="에그마요">에그마요</option>
+                <option value="참치">참치</option>
+                <option value="비엘티">비엘티</option>
+                <option value="로스트치킨">로스트치킨</option>
+                <option value="쉬림프">쉬림프</option>
+                <option value="이탈리안비엠티">이탈리안비엠티</option>
+            </select><br><br>
+
+            <label for="빵">빵: </label>
+            <select name="빵" id="빵">
+                <option value="허니오트">허니오트</option>
+                <option value="하티">하티</option>
+                <option value="위트">위트</option>
+                <option value="파마산 오레가노">파마산 오레가노</option>
+                <option value="화이트">화이트</option>
+                <option value="플랫브레드">플랫브레드</option>
+            </select><br><br>
+
+            <label for="치즈">치즈: </label>
+            <input type="radio" id="아메리칸치즈">
+            <label for="아메리칸치즈">아메리칸치즈 </label>
+            <input type="radio" id="슈레드치즈">
+            <label for="슈레드치즈">슈레드치즈 </label>
+            <input type="radio" id="모차렐라치즈">
+            <label for="모짜렐라치즈">모차렐라치즈 </label><br><br>
+
+            <label for="데움">빵과 치즈 데워드릴까요?</label>
+            <input type="radio" id="데움">
+            <label for="데움">네 </label>
+            <input type="radio" id="안데움">
+            <label for="안데움">아니요 </label><br><br>
+
+            <label for="추가선택">추가선택하실 토핑을 정해주세요.(중복선택가능)</label><br>
+            <input type="checkbox" id="미트">
+            <label for="미트">미트 </label>
+            <input type="checkbox" id="에그마요">
+            <label for="에그마요">에그마요 </label>
+            <input type="checkbox" id="페퍼로니">
+            <label for="페퍼로니">페퍼로니 </label>
+            <input type="checkbox" id="베이컨">
+            <label for="베이컨">베이컨 </label>
+            <input type="checkbox" id="치즈">
+            <label for="치즈">치즈 </label>
+            <input type="checkbox" id="오믈렛">
+            <label for="오믈렛">오믈렛 </label>
+            <input type="checkbox" id="아보카도">
+            <label for="아보카도">아보카도 </label>
+            <input type="checkbox" id="베이컨비츠">
+            <label for="베이컨비츠">베이컨비츠 </label><br><br>
+
+            <label for="야채">샌드위치에 넣을 야채를 전부 골라주세요.</label><br>
+            <input type="checkbox" id="양상추">
+            <label for="양상추">양상추 </label>
+            <input type="checkbox" id="토마토">
+            <label for="토마토">토마토 </label>
+            <input type="checkbox" id="오이">
+            <label for="오이">오이 </label>
+            <input type="checkbox" id="피망">
+            <label for="피망">피망 </label>
+            <input type="checkbox" id="양파">
+            <label for="양파">양파 </label>
+            <input type="checkbox" id="피클">
+            <label for="피클">피클 </label>
+            <input type="checkbox" id="올리브">
+            <label for="올리브">올리브 </label>
+            <input type="checkbox" id="할라피뇨">
+            <label for="할라피뇨">할라피뇨 </label><br><br>
+
+            <label for="소스선택">소스를 선택해주세요.(중복선택가능)</label><br>
+            <input type="checkbox" id="랜치">
+            <label for="랜치">랜치 </label>
+            <input type="checkbox" id="허니머스타드">
+            <label for="허니머스타드">허니머스타드 </label>
+            <input type="checkbox" id="스위트칠리">
+            <label for="스위트칠리">스위트칠리 </label>
+            <input type="checkbox" id="홀스래디쉬">
+            <label for="홀스래디쉬">홀스래디쉬 </label>
+            <input type="checkbox" id="마요네즈">
+            <label for="마요네즈">마요네즈 </label>
+            <input type="checkbox" id="스모크바비큐">
+            <label for="스모크바비큐">스모크바비큐 </label>
+            <input type="checkbox" id="소금">
+            <label for="소금">소금 </label>
+            <input type="checkbox" id="후추">
+            <label for="후추">후추 </label><br><br>
+
+            <label for="포장매장">포장/매장: </label>
+            <select name="포장매장" id="포장매장">
+                <option value="포장">포장</option>
+                <option value="매장">매장</option>
+            </select><br><br>
+
+            <label for="요청사항">요청사항(선택): </label>
+            <textarea name="요청사항" id="요청사항"></textarea><br><br>
+
+            <button>주문하기</button>
+            <button>취소하기</button>
+
+        </form>
+    </div>
+</body>
+</html>
