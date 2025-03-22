@@ -1,0 +1,33 @@
+.head{
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+    letter-spacing: 3px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.poster{
+    margin-top: 100px;
+    margin-left: 10px;
+    position: absolute;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 330px;
+    position: absolute;
+    font-size: 18px;
+}
+.opening{
+    margin-top: 130px;
+    margin-left: 330px;
+    position: absolute;
+    font-size: 18px;
+}
+.story{
+    margin-top: 160px;
+    margin-left: 330px;
+    position: absolute;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
