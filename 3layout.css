@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 1200px;
+    margin: 20px auto;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: yellow;
+}
+#left-sidebar{
+    width: 250px;
+    height: 600px;
+    background-color: orange;
+    float: left;
+}
+#contents{
+    width: 800px;
+    height: 600px;
+    background-color: beige;
+    float: left;
+}
+#right-sidebar{
+    width: 150px;
+    height: 600px;
+    float: left;
+    background-color: orange;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    clear: left;
+}
