@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    position: absolute;
+    margin-top: 25px; 
+    margin-left: 10px;
+}
+#title{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 170px;
+    background-color: coral;
+}
+#introduction{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 10px;
+    background: linear-gradient(to right, green 30%, orange);
+}
+#menu_table{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 10px;
+    background: linear-gradient(30deg, yellow 30%, beige);
+}
+#top_title{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 700px;
+    background-image: url("momstouchlogo.png");
+    background-size: 30px;
+    background-repeat: repeat-x;
+}
+#top3{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 790px;
+    background: radial-gradient(ellipse farthest-corner at 10% 10%, orange, lime, yellow); 
+}
